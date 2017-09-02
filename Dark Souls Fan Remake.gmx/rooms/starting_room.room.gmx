@@ -791,12 +791,12 @@
     <tile bgName="&lt;undefined&gt;" x="224" y="576" w="32" h="32" xo="0" yo="0" id="10001909" name="inst_78C948E7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="&lt;undefined&gt;" x="192" y="576" w="32" h="32" xo="0" yo="0" id="10001910" name="inst_31CAF853" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
-  <PhysicsWorld>0</PhysicsWorld>
+  <PhysicsWorld>-1</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
   <PhysicsWorldRight>1024</PhysicsWorldRight>
   <PhysicsWorldBottom>768</PhysicsWorldBottom>
   <PhysicsWorldGravityX>0</PhysicsWorldGravityX>
-  <PhysicsWorldGravityY>10</PhysicsWorldGravityY>
+  <PhysicsWorldGravityY>0</PhysicsWorldGravityY>
   <PhysicsWorldPixToMeters>0.100000001490116</PhysicsWorldPixToMeters>
 </room>
