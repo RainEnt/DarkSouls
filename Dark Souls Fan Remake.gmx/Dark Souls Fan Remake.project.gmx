@@ -26,44 +26,17 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_bottom</sprite>
+    <sprite>sprites\spr_solid</sprite>
+    <sprite>sprites\spr_player</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\set_depth.gml</script>
-    <scripts name="all">
-      <script>scripts\approach.gml</script>
-      <script>scripts\instance_place_multiple.gml</script>
-      <script>scripts\decimal_bbox_right.gml</script>
-      <script>scripts\decimal_bbox_bottom.gml</script>
-      <script>scripts\decimal_bbox_left.gml</script>
-      <script>scripts\decimal_bbox_top.gml</script>
-      <script>scripts\place_meeting_exception.gml</script>
-      <script>scripts\initialize_movement_entity.gml</script>
-      <script>scripts\move_movement_entity.gml</script>
-      <script>scripts\move_solid_entity.gml</script>
-      <script>scripts\add_movement_horizontal_vertical.gml</script>
-      <script>scripts\set_movement_horizontal_vertical.gml</script>
-      <script>scripts\add_movement_direction_acceleration.gml</script>
-      <script>scripts\set_movement_direction_speed.gml</script>
-      <script>scripts\add_movement_horizontal_vertical_maxspeed.gml</script>
-      <script>scripts\warp_movement_entity.gml</script>
-      <script>scripts\set_movement_collision_object.gml</script>
-      <script>scripts\set_movement_friction.gml</script>
-      <script>scripts\set_movement_bounce.gml</script>
-      <script>scripts\set_movement_gravity.gml</script>
-      <script>scripts\enable_movement_platform_actions.gml</script>
-      <script>scripts\enable_movement_jump.gml</script>
-      <script>scripts\enable_movement_run.gml</script>
-      <script>scripts\enable_movement_run_axis.gml</script>
-      <script>scripts\enable_movement_air_jump.gml</script>
-      <script>scripts\enable_movement_wall_jump.gml</script>
-      <script>scripts\animation_end.gml</script>
-      <script>scripts\animation_hit_frame.gml</script>
-      <script>scripts\enable_movement_platform_sprites.gml</script>
-    </scripts>
+    <script>scripts\draw_text_outlined.gml</script>
+    <script>scripts\approach_new.gml</script>
   </scripts>
   <objects name="objects">
+    <object>objects\obj_solid</object>
     <object>objects\obj_player</object>
   </objects>
   <rooms name="rooms">
